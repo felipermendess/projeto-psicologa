@@ -20,4 +20,8 @@
 
 .header-menu li a {
   color: var(--cor-w);
+  padding: 16px 0px;
+}
+
+@media (max-width: 800px) {
 }
