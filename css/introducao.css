@@ -30,7 +30,7 @@
 .introducao-conteudo h1 {
   font-size: 64px;
   color: var(--cor-p6);
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .introducao-conteudo ul {
@@ -56,7 +56,7 @@
 }
 
 .introducao-conteudo li:last-child {
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 
 .introducao-conteudo a {
@@ -87,7 +87,9 @@
   }
   .introducao-conteudo h1 {
     font-size: 58px;
-    margin-bottom: 30px;
+  }
+  .introducao-conteudo li {
+    font-size: 22px;
   }
 }
 
@@ -111,21 +113,84 @@
 }
 
 @media (max-width: 850px) {
-  .introducao {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
   .introducao-conteudo p {
     font-size: 18px;
   }
   .introducao-conteudo h1 {
-    font-size: 48px;
+    font-size: 46px;
     margin-bottom: 30px;
+  }
+  .introducao-conteudo li {
+    font-size: 18px;
+  }
+  .introducao-conteudo li::before {
+    width: 6px;
+    height: 6px;
+  }
+  .introducao-conteudo a {
+    padding: 13px 26px;
+  }
+  .introducao img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 750px) {
+  .introducao-conteudo p {
+    font-size: 16px;
+  }
+  .introducao-conteudo h1 {
+    font-size: 42px;
+    margin-bottom: 28px;
+  }
+  .introducao-conteudo li {
+    font-size: 16px;
+  }
+  .introducao-conteudo li:last-child {
+    margin-bottom: 20px;
+  }
+  .introducao-conteudo a {
+    padding: 12px 24px;
+  }
+  .introducao img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 690px) {
+  .introducao-conteudo p {
+    font-size: 14px;
+  }
+  .introducao-conteudo h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  .introducao-conteudo li {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .introducao-conteudo li::before {
+    width: 5px;
+    height: 5px;
+  }
+  .introducao-conteudo li:last-child {
+    margin-bottom: 18px;
+  }
+  .introducao-conteudo a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .introducao img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 593px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    max-width: 300px;
   }
   .introducao img {
     display: none;
-  }
-  .introducao-conteudo li:last-child {
-    margin-bottom: 30px;
   }
 }

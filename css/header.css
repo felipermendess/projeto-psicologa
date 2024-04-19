@@ -4,7 +4,7 @@
 .header {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 40px;
+  gap: 20px 30px;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
@@ -38,18 +38,18 @@
     gap: 20px;
   }
   .header-menu a {
-    padding: 10px 14px;
+    padding: 10px 8px;
     font-size: 16px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .header-menu {
     gap: 10px;
   }
   .header-menu a {
     background-color: var(--cor-p3);
     border-radius: 4px;
-    padding: 8px 12px;
+    padding: 8px 6px;
     font-size: 14px;
   }
   .header-menu a:hover {
