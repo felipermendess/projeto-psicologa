@@ -187,7 +187,7 @@
 
 @media (max-width: 550px) {
   .introducao-conteudo h1 {
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 20px;
   }
   .introducao-conteudo p {
@@ -202,20 +202,48 @@
     height: 4px;
   }
   .introducao img {
-    width: 200px;
+    width: 220px;
   }
   .introducao-conteudo a {
-    padding: 10px 16px;
-    font-size: 12x;
+    padding: 10px 12px;
+    font-size: 12px;
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
   .introducao {
     grid-template-columns: 1fr;
     max-width: 280px;
   }
+  .introducao-conteudo h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .introducao-conteudo p {
+    font-size: 14px;
+  }
+  .introducao-conteudo li {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
   .introducao img {
     display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  .introducao-conteudo h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .introducao-conteudo p {
+    font-size: 12px;
+  }
+  .introducao-conteudo li {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+  .introducao-conteudo a {
+    padding: 8px 8px;
   }
 }
