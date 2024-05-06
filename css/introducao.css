@@ -178,7 +178,7 @@
   }
   .introducao-conteudo a {
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .introducao img {
     width: 250px;
@@ -245,5 +245,6 @@
   }
   .introducao-conteudo a {
     padding: 8px 8px;
+    font-size: 10px;
   }
 }
