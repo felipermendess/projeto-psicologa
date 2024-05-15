@@ -58,7 +58,9 @@
   margin: 40px 40px;
   border-radius: 4px;
   width: 500px;
-  height: 430px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
 }
 
 .atendimento-online h3,
@@ -94,6 +96,18 @@
 }
 
 .atendimento-botao {
+  color: var(--cor-p3);
+  background-color: var(--cor-w);
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-weight: 600;
   display: inline-block;
+  transition: 0.3s;
   margin-top: 60px;
+  align-self: center;
+}
+
+.atendimento-botao:hover {
+  color: var(--cor-w);
+  background-color: var(--cor-p3);
 }
