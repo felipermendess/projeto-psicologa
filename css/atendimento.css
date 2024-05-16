@@ -30,18 +30,6 @@
   font-weight: bold;
 }
 
-.atendimento-conteudo p::before {
-  content: "";
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  background-color: var(--cor-b);
-  border-radius: 50%;
-  position: absolute;
-  top: 15px;
-  left: -12px;
-}
-
 .atendimento-titulo.dois {
   margin-top: 80px;
 }
@@ -123,6 +111,14 @@
     width: 450px;
     height: 450px;
   }
+  .atendimento-foto2 {
+    width: 450px;
+    height: 450px;
+  }
+  .atendimento-foto3 {
+    width: 440px;
+    height: 450px;
+  }
 }
 @media (max-width: 1000px) {
   .atendimento {
@@ -136,6 +132,14 @@
   }
   .atendimento-foto1 {
     width: 360px;
+    height: 360px;
+  }
+  .atendimento-foto2 {
+    width: 360px;
+    height: 360px;
+  }
+  .atendimento-foto3 {
+    width: 330px;
     height: 360px;
   }
 }
@@ -153,6 +157,14 @@
     width: 300px;
     height: 300px;
   }
+  .atendimento-foto2 {
+    width: 300px;
+    height: 300px;
+  }
+  .atendimento-foto3 {
+    width: 300px;
+    height: 300px;
+  }
 }
 @media (max-width: 700px) {
   .atendimento {
@@ -160,13 +172,23 @@
   }
   .atendimento-titulo {
     font-size: 38px;
+    margin-bottom: 45px;
   }
+
   .atendimento-conteudo p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .atendimento-foto1 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
+  }
+  .atendimento-foto2 {
+    width: 230px;
+    height: 230px;
+  }
+  .atendimento-foto3 {
+    width: 220px;
+    height: 230px;
   }
 }
 @media (max-width: 550px) {
@@ -176,13 +198,38 @@
   .atendimento-titulo {
     font-size: 30px;
   }
+  .atendimento-conteudo p {
+    font-size: 11px;
+  }
+  .atendimento-foto1 {
+    width: 200px;
+    height: 200px;
+  }
+  .atendimento-foto2 {
+    width: 190px;
+    height: 190px;
+  }
+  .atendimento-foto3 {
+    width: 190px;
+    height: 190px;
+  }
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .atendimento {
     margin-top: 45px;
   }
   .atendimento-titulo {
     font-size: 25px;
+  }
+  .atendimento-conteudo p {
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  .atendimento-item {
+    grid-template-columns: 1fr;
+  }
+  .atendimento-item img {
+    display: none;
   }
 }
 @media (max-width: 350px) {
@@ -191,6 +238,11 @@
   }
   .atendimento-titulo {
     font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .atendimento-conteudo p {
+    font-size: 12px;
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 300px) {
@@ -199,5 +251,10 @@
   }
   .atendimento-titulo {
     font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .atendimento-conteudo p {
+    font-size: 11px;
+    margin-bottom: 24px;
   }
 }
