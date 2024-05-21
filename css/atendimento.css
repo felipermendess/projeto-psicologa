@@ -46,7 +46,7 @@
   margin: 40px 40px;
   border-radius: 4px;
   width: 500px;
-  height: 380px;
+  height: 360px;
   display: flex;
   flex-direction: column;
 }
@@ -142,7 +142,59 @@
     width: 330px;
     height: 360px;
   }
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 30px;
+  }
+
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 21px;
+  }
 }
+
+@media (max-width: 930px) {
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 30px;
+  }
+
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 19px;
+  }
+  .atendimento-botao {
+    padding: 12px 24px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 300px;
+  }
+}
+
+@media (max-width: 880px) {
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 28px;
+  }
+
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 17px;
+  }
+  .atendimento-botao {
+    padding: 11px 22px;
+    font-size: 13px;
+    margin-top: 40px;
+  }
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 280px;
+  }
+}
+
 @media (max-width: 800px) {
   .atendimento {
     margin-top: 70px;
@@ -231,6 +283,9 @@
   .atendimento-item img {
     display: none;
   }
+  .atendimento-titulo.dois {
+    margin-top: 60px;
+  }
 }
 @media (max-width: 350px) {
   .atendimento {
@@ -244,6 +299,9 @@
     font-size: 12px;
     margin-bottom: 24px;
   }
+  .atendimento-titulo.dois {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 300px) {
   .atendimento {
@@ -256,5 +314,8 @@
   .atendimento-conteudo p {
     font-size: 11px;
     margin-bottom: 24px;
+  }
+  .atendimento-titulo.dois {
+    margin-top: 40px;
   }
 }

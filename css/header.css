@@ -57,6 +57,11 @@
     background-color: var(--cor-p2);
   }
 }
+@media (max-width: 593px) {
+  .header {
+    justify-content: center;
+  }
+}
 @media (max-width: 300px) {
   .header-menu a {
     background-color: var(--cor-p3);
