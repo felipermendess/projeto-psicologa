@@ -151,6 +151,10 @@
   .atendimento-presencial li {
     font-size: 21px;
   }
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 320px;
+  }
 }
 
 @media (max-width: 930px) {
@@ -171,6 +175,7 @@
   .atendimento-online,
   .atendimento-presencial {
     height: 300px;
+    margin: 30px 30px;
   }
 }
 
@@ -191,7 +196,23 @@
   }
   .atendimento-online,
   .atendimento-presencial {
-    height: 280px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 830px) {
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 26px;
+  }
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 16px;
+  }
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 270px;
+    margin: 20px 20px;
   }
 }
 
@@ -216,6 +237,11 @@
   .atendimento-foto3 {
     width: 300px;
     height: 300px;
+  }
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 270px;
+    margin: 15px 15px;
   }
 }
 @media (max-width: 700px) {
