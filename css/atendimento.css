@@ -120,6 +120,7 @@
     height: 450px;
   }
 }
+
 @media (max-width: 1000px) {
   .atendimento {
     margin-top: 100px;
@@ -244,6 +245,7 @@
     margin: 15px 15px;
   }
 }
+
 @media (max-width: 700px) {
   .atendimento {
     margin-top: 60px;
@@ -268,7 +270,51 @@
     width: 220px;
     height: 230px;
   }
+  .atendimento-online,
+  .atendimento-presencial {
+    margin: 12px 12px;
+  }
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 24px;
+  }
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 15px;
+  }
+  .atendimento-botao {
+    padding: 10px 20px;
+    font-size: 12.5px;
+    margin-top: 40px;
+  }
 }
+
+@media (max-width: 660px) {
+  .atendimento-formas {
+    flex-wrap: wrap;
+  }
+  .atendimento-online,
+  .atendimento-presencial {
+    align-items: center;
+    width: 300px;
+    height: 315px;
+  }
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 28px;
+  }
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .atendimento-botao {
+    padding: 16px 32px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 550px) {
   .atendimento {
     margin-top: 50px;
