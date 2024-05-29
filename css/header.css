@@ -42,6 +42,7 @@
     font-size: 16px;
   }
 }
+
 @media (max-width: 700px) {
   .header-menu {
     gap: 10px;
@@ -57,11 +58,13 @@
     background-color: var(--cor-p2);
   }
 }
+
 @media (max-width: 593px) {
   .header {
     justify-content: center;
   }
 }
+
 @media (max-width: 300px) {
   .header-menu a {
     background-color: var(--cor-p3);

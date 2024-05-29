@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 2000px;
 }
+
 h1,
 h2,
 h3,
@@ -11,16 +12,19 @@ p {
   margin: 0;
   padding: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
   border-radius: 4px;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 ul {
   margin: 0;
   padding: 0;
