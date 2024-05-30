@@ -49,6 +49,7 @@
   height: 360px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .atendimento-online h3,

@@ -1,0 +1,20 @@
+.beneficios-bg{
+  background-color: var(--cor-p2);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.beneficios{
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.beneficios-titulo{
+  color: var(--cor-w);
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 80px;
+}
