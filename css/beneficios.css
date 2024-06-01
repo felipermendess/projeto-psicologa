@@ -24,7 +24,6 @@
   flex-wrap: wrap;
   gap: 60px;
   margin-bottom: 60px;
-  max-width: 230px;
 }
 
 .beneficios-item{
@@ -34,7 +33,7 @@
   flex: 1;
   border-radius: 20px;
   padding: 30px;
-  height: 220px;
+  height: 230px;
 }
 
 .beneficios-item img{
@@ -51,4 +50,25 @@
 .beneficios-item span{
   color: var(--cor-p6);
   font-weight: bold;
+}
+
+.btn-beneficios{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-beneficios a{
+  color: var(--cor-p3);
+  background-color: var(--cor-w);
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btn-beneficios a:hover {
+  color: var(--cor-w);
+  background-color: var(--cor-p3);
 }
