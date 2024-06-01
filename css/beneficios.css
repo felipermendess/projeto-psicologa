@@ -18,3 +18,37 @@
   text-align: center;
   margin-bottom: 80px;
 }
+
+.beneficios-lista{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 60px;
+  max-width: 230px;
+}
+
+.beneficios-item{
+  background-color: var(--cor-w);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 20px;
+  padding: 30px;
+  height: 220px;
+}
+
+.beneficios-item img{
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.beneficios-item h3{
+  color: var(--cor-b);
+  font-size: 24px;
+  text-align: center;
+}
+
+.beneficios-item span{
+  color: var(--cor-p6);
+  font-weight: bold;
+}
