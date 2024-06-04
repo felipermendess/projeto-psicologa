@@ -266,6 +266,26 @@
   }
 }
 
+@media(max-width:580px){
+  .beneficios-lista{
+    display: block;
+  }
+  .beneficios-item{
+    width: 220px;
+    height: 100px;
+    margin: 0px auto 20px auto;
+  }
+  .beneficios-img1, .beneficios-img6{
+    width: 55px;
+  }
+  .beneficios-img2,.beneficios-img3,.beneficios-img4,.beneficios-img5{
+    width: 45px;
+  }
+  .beneficios-item h3{
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 550px) {
   .beneficios-titulo {
     font-size: 30px;
@@ -277,6 +297,37 @@
   .beneficios-titulo {
     font-size: 25px;
     margin-bottom: 40px;
+  }
+  .beneficios-item{
+    width: 200px;
+    height: 90px;
+    margin: 0px auto 20px auto;
+  }
+  .beneficios-img1, .beneficios-img6{
+    width: 45px;
+  }
+  .beneficios-img2,.beneficios-img3,.beneficios-img4,.beneficios-img5{
+    width: 35px;
+  }
+  .beneficios-item h3{
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 400px){
+  .beneficios-item{
+    width: 170px;
+    height: 85px;
+    margin: 0px auto 20px auto;
+  }
+  .beneficios-img1, .beneficios-img6{
+    width: 45px;
+  }
+  .beneficios-img2,.beneficios-img3,.beneficios-img4,.beneficios-img5{
+    width: 35px;
+  }
+  .beneficios-item h3{
+    font-size: 13px;
   }
 }
 
@@ -291,8 +342,29 @@
   }
 }
 
+@media(max-width: 320px){
+  .beneficios-item{
+    width: 120px;
+    height: 85px;
+    margin: 0px auto 20px auto;
+  }
+  .beneficios-img1, .beneficios-img6{
+    width: 40px;
+  }
+  .beneficios-img2,.beneficios-img3,.beneficios-img4,.beneficios-img5{
+    width: 30px;
+  }
+  .beneficios-item h3{
+    font-size: 12.6px;
+  }
+}
+
 @media (max-width: 300px) {
   .beneficios-titulo {
     font-size: 16px;
+  }
+  .btn-beneficios a{
+    padding: 10px 20px;
+    font-size: 11px;
   }
 }
