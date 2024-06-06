@@ -48,7 +48,7 @@
 }
 
 .beneficios-item span{
-  color: var(--cor-p6);
+  color: var(--cor-p4);
   font-weight: bold;
 }
 
@@ -295,7 +295,7 @@
     display: block;
   }
   .beneficios-item{
-    width: 220px;
+    width: 210px;
     height: 100px;
     margin: 0px auto 20px auto;
   }
@@ -326,7 +326,7 @@
     margin-bottom: 40px;
   }
   .beneficios-item{
-    width: 200px;
+    width: 180px;
     height: 90px;
     margin: 0px auto 20px auto;
   }
