@@ -1,0 +1,41 @@
+.sobre-mim{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-top: 120px;
+}
+
+.sobre-mim-titulo{
+  font-size: 64px;
+  color: var(--cor-p6);
+  margin-bottom: 30px;
+}
+
+.sobre-mim-conteudo p{
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.sobre-mim-conteudo p + p{
+  margin-top: 14px;
+}
+
+.sobre-mim-conteudo a{
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: var(--cor-w);
+  background-color: var(--cor-p2);
+  text-align: center;
+  padding: 16px 32px;
+  border-radius: 4px;
+  transition: .3s;
+}
+
+.sobre-mim-conteudo a:hover{
+  background-color: var(--cor-p3);
+}
