@@ -313,6 +313,9 @@
 }
 
 @media(max-width:500px){
+  .sobre-mim{
+    margin-top: 45px;
+  }
   .sobre-mim-titulo{
     font-size: 30px;
   }
@@ -324,7 +327,7 @@
 
 @media(max-width:400px){
   .sobre-mim{
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .sobre-mim-titulo{
     font-size: 25px;
@@ -342,7 +345,7 @@
 
 @media(max-width:330px){
   .sobre-mim{
-    margin-top: 38px;
+    margin-top: 28px;
   }
   .sobre-mim-titulo{
     font-size: 22px;
@@ -359,7 +362,7 @@
 
 @media(max-width:290px){
   .sobre-mim{
-    margin-top: 36px;
+    margin-top: 28px;
   }
   .sobre-mim-titulo{
     font-size: 20px;
@@ -376,7 +379,7 @@
 
 @media(max-width:270px){
   .sobre-mim{
-    margin-top: 36px;
+    margin-top: 28px;
   }
   .sobre-mim-titulo{
     font-size: 18px;
@@ -393,7 +396,7 @@
 
 @media(max-width:250px){
   .sobre-mim{
-    margin-top: 34px;
+    margin-top: 26px;
   }
   .sobre-mim-titulo{
     font-size: 16px;
