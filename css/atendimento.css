@@ -10,7 +10,7 @@
 .atendimento-titulo {
   font-size: 64px;
   color: var(--cor-p6);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .atendimento-titulo.dois {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .atendimento-formas {
@@ -43,13 +43,13 @@
 .atendimento-presencial {
   background-color: var(--cor-p1);
   padding: 32px;
-  margin: 40px 40px;
+  margin: 25px 40px;
   border-radius: 4px;
   width: 500px;
-  height: 360px;
+  height: 320px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .atendimento-online h3,
@@ -57,7 +57,7 @@
   font-size: 32px;
   color: var(--cor-p6);
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .atendimento-online li,
@@ -92,7 +92,7 @@
   font-weight: 600;
   display: inline-block;
   transition: 0.3s;
-  margin-top: 60px;
+  margin-top: 40px;
   align-self: center;
   text-align: center;
 }
@@ -131,6 +131,9 @@
     font-size: 52px;
     margin-bottom: 16px;
   }
+  .atendimento-titulo.dois {
+    margin-top: 84px;
+  }
   .atendimento-conteudo p {
     font-size: 18px;
   }
@@ -146,6 +149,10 @@
     width: 330px;
     height: 360px;
   }
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 310px;
+  }
   .atendimento-online h3,
   .atendimento-presencial h3 {
     font-size: 30px;
@@ -154,10 +161,6 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 21px;
-  }
-  .atendimento-online,
-  .atendimento-presencial {
-    height: 320px;
   }
 }
 
@@ -174,11 +177,11 @@
   .atendimento-botao {
     padding: 12px 24px;
     font-size: 14px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .atendimento-online,
   .atendimento-presencial {
-    height: 300px;
+    height: 270px;
     margin: 30px 30px;
   }
 }
@@ -196,11 +199,11 @@
   .atendimento-botao {
     padding: 11px 22px;
     font-size: 13px;
-    margin-top: 40px;
+    margin-top: 24px;
   }
   .atendimento-online,
   .atendimento-presencial {
-    height: 265px;
+    height: 245px;
   }
 }
 
@@ -208,6 +211,7 @@
   .atendimento-online h3,
   .atendimento-presencial h3 {
     font-size: 26px;
+    margin-bottom: 20px;
   }
   .atendimento-online li,
   .atendimento-presencial li {
@@ -215,7 +219,7 @@
   }
   .atendimento-online,
   .atendimento-presencial {
-    height: 260px;
+    height: 225px;
     margin: 20px 20px;
   }
 }
@@ -244,7 +248,7 @@
   }
   .atendimento-online,
   .atendimento-presencial {
-    height: 260px;
+    height: 225px;
     margin: 15px 15px;
   }
 }
@@ -274,7 +278,7 @@
   }
   .atendimento-online,
   .atendimento-presencial {
-    height: 250px;
+    height: 205px;
     margin: 12px 12px;
   }
   .atendimento-online h3,
@@ -288,7 +292,7 @@
   .atendimento-botao {
     padding: 10px 20px;
     font-size: 12.5px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -300,7 +304,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 300px;
-    height: 315px;
+    height: 270px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -313,7 +317,7 @@
   }
   .atendimento-botao {
     padding: 16px 32px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 16px;
   }
 }
@@ -344,7 +348,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 270px;
-    height: 260px;
+    height: 220px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -357,7 +361,7 @@
   }
   .atendimento-botao {
     padding: 12px 24px;
-    margin-top: 40px;
+    margin-top: 24px;
     font-size: 13px;
   }
 }
@@ -387,7 +391,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 240px;
-    height: 230px;
+    height: 200px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -400,7 +404,7 @@
   }
   .atendimento-botao {
     padding: 10px 20px;
-    margin-top: 30px;
+    margin-top: 24px;
     font-size: 11.8px;
   }
 }
@@ -424,7 +428,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 230px;
+    height: 185px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -437,7 +441,7 @@
   }
   .atendimento-botao {
     padding: 12px 18px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 9.8px;
   }
 }
@@ -447,7 +451,8 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 225px;
+    height: 180px;
+    padding: 20px 32px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -460,7 +465,7 @@
   }
   .atendimento-botao {
     padding: 11px 18px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 9px;
   }
 }
@@ -484,7 +489,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 230px;
+    height: 180px;
   }
   .atendimento-online li::before,
   .atendimento-presencial li::before {
@@ -497,11 +502,11 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 220px;
+    height: 180px;
   }
   .atendimento-botao {
     padding: 10px 16px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 8px;
   }
 }
@@ -511,7 +516,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 215px;
+    height: 180px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -519,13 +524,13 @@
   }
   .atendimento-online li,
   .atendimento-presencial li {
-    font-size: 10.5px;
+    font-size: 10px;
     line-height: 1.5;
   }
   .atendimento-botao {
     padding: 10px 16px;
-    margin-top: 30px;
-    font-size: 8px;
+    margin-top: 20px;
+    font-size: 7px;
   }
 }
 
@@ -534,7 +539,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 215px;
+    height: 180px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -547,7 +552,51 @@
   }
   .atendimento-botao {
     padding: 8px 12px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 7px;
+  }
+}
+
+@media(max-width:250px){
+  .atendimento-online,
+  .atendimento-presencial {
+    align-items: center;
+    width: 195px;
+    height: 175px;
+  }
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 13px;
+  }
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 9px;
+    line-height: 1.5;
+  }
+  .atendimento-botao {
+    padding: 8px 12px;
+    margin-top: 20px;
+    font-size: 6.5px;
+  }
+}
+
+@media(max-width:240px){
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 8px;
+  }
+  .atendimento-botao {
+    font-size: 6px;
+  }
+}
+
+@media(max-width:230px){
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 180px;
+  }
+  .atendimento-online h3,
+  .atendimento-presencial h3 {
+    font-size: 12px;
   }
 }
