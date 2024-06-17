@@ -205,8 +205,8 @@
     width: 220px;
   }
   .introducao-conteudo a {
-    padding: 10px 12px;
-    font-size: 12px;
+    padding: 10px 10px;
+    font-size: 10px;
   }
 }
 
@@ -232,6 +232,10 @@
   }
   .introducao img {
     display: none;
+  }
+  .introducao-conteudo a {
+    padding: 11px 11px;
+    font-size: 12px;
   }
 }
 
