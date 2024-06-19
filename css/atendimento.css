@@ -261,6 +261,9 @@
     font-size: 38px;
     margin-bottom: 16px;
   }
+  .atendimento-titulo.dois {
+    margin-top: 60px;
+  }
   .atendimento-conteudo p {
     font-size: 13px;
   }
@@ -385,7 +388,7 @@
     display: none;
   }
   .atendimento-titulo.dois {
-    margin-top: 60px;
+    margin-top: 45px;
   }
   .atendimento-online,
   .atendimento-presencial {
@@ -423,8 +426,7 @@
     margin-bottom: 24px;
   }
   .atendimento-titulo.dois {
-    margin-top: 50px;
-    margin-bottom: 24px;
+    margin-top: 40px;
   }
   .atendimento-online,
   .atendimento-presencial {
@@ -486,7 +488,7 @@
     margin-bottom: 24px;
   }
   .atendimento-titulo.dois {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .atendimento-online,
   .atendimento-presencial {
