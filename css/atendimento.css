@@ -452,11 +452,13 @@
 }
 
 @media(max-width:315px){
-  .atendimento-online,
-  .atendimento-presencial {
-    align-items: center;
+  .atendimento-online{
     width: 195px;
-    height: 180px;
+    height: 215px;
+    padding: 20px 32px;
+  }
+  .atendimento-presencial {
+    height: 220px;
     padding: 20px 32px;
   }
   .atendimento-online h3,
@@ -465,7 +467,7 @@
   }
   .atendimento-online li,
   .atendimento-presencial li {
-    font-size: 11.5px;
+    font-size: 12.5px;
     line-height: 1.5;
   }
   .atendimento-botao {
@@ -507,7 +509,12 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 180px;
+    height: 195px;
+  }
+  .atendimento-online li,
+  .atendimento-presencial li {
+    font-size: 12px;
+    line-height: 1.5;
   }
   .atendimento-botao {
     padding: 10px 16px;
@@ -529,8 +536,8 @@
   }
   .atendimento-online li,
   .atendimento-presencial li {
-    font-size: 10px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.2;
   }
   .atendimento-botao {
     padding: 10px 16px;
@@ -544,7 +551,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 180px;
+    height: 185px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -552,8 +559,8 @@
   }
   .atendimento-online li,
   .atendimento-presencial li {
-    font-size: 9.5px;
-    line-height: 1.5;
+    font-size: 10px;
+    line-height: 1.2;
   }
   .atendimento-botao {
     padding: 8px 12px;
@@ -567,7 +574,7 @@
   .atendimento-presencial {
     align-items: center;
     width: 195px;
-    height: 175px;
+    height: 180px;
   }
   .atendimento-online h3,
   .atendimento-presencial h3 {
@@ -575,8 +582,8 @@
   }
   .atendimento-online li,
   .atendimento-presencial li {
-    font-size: 9px;
-    line-height: 1.5;
+    font-size: 10px;
+    line-height: 1.2;
   }
   .atendimento-botao {
     padding: 8px 12px;
@@ -588,7 +595,7 @@
 @media(max-width:240px){
   .atendimento-online li,
   .atendimento-presencial li {
-    font-size: 8px;
+    font-size: 10px;
   }
   .atendimento-botao {
     font-size: 6px;
@@ -603,5 +610,12 @@
   .atendimento-online h3,
   .atendimento-presencial h3 {
     font-size: 12px;
+  }
+}
+
+@media(max-width:205px){
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 195px;
   }
 }
