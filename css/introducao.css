@@ -3,7 +3,6 @@
   padding-bottom: 34px;
   padding-top: 34px;
 }
-
 .introducao {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -14,11 +13,9 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
-
 .introducao-conteudo {
   align-self: center;
 }
-
 .introducao-conteudo p {
   font-size: 24px;
   font-weight: 500;
@@ -26,18 +23,15 @@
   color: var(--cor-p2);
   letter-spacing: 1.5;
 }
-
 .introducao-conteudo h1 {
   font-size: 64px;
   color: var(--cor-p6);
   margin-bottom: 40px;
 }
-
 .introducao-conteudo ul {
   display: flex;
   flex-direction: column;
 }
-
 .introducao-conteudo li {
   display: flex;
   align-items: center;
@@ -45,7 +39,6 @@
   margin-bottom: 20px;
   color: var(--cor-p4);
 }
-
 .introducao-conteudo li::before {
   content: "";
   display: inline-block;
@@ -54,11 +47,9 @@
   background-color: var(--cor-p4);
   margin-right: 8px;
 }
-
 .introducao-conteudo li:last-child {
   margin-bottom: 30px;
 }
-
 .introducao-conteudo a {
   color: var(--cor-p3);
   background-color: var(--cor-w);
@@ -68,19 +59,16 @@
   display: inline-block;
   transition: 0.3s;
 }
-
 .introducao-conteudo a:hover {
   color: var(--cor-w);
   background-color: var(--cor-p3);
 }
-
 .introducao img {
   width: 600px;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-
 @media (max-width: 1200px) {
   .introducao-conteudo p {
     font-size: 22px;
@@ -92,7 +80,6 @@
     font-size: 22px;
   }
 }
-
 @media (max-width: 1050px) {
   .introducao-conteudo p {
     font-size: 20px;
@@ -111,14 +98,12 @@
     width: 500px;
   }
 }
-
 @media (max-width: 850px) {
   .introducao-conteudo p {
     font-size: 18px;
   }
   .introducao-conteudo h1 {
     font-size: 46px;
-    margin-bottom: 30px;
   }
   .introducao-conteudo li {
     font-size: 18px;
@@ -134,7 +119,6 @@
     width: 400px;
   }
 }
-
 @media (max-width: 750px) {
   .introducao-conteudo p {
     font-size: 16px;
@@ -156,7 +140,6 @@
     width: 300px;
   }
 }
-
 @media (max-width: 690px) {
   .introducao-conteudo p {
     font-size: 14px;
@@ -184,7 +167,6 @@
     width: 250px;
   }
 }
-
 @media (max-width: 550px) {
   .introducao-conteudo h1 {
     font-size: 28px;
@@ -209,7 +191,6 @@
     font-size: 10px;
   }
 }
-
 @media (max-width: 480px) {
   .introducao-bg{
     padding-top: 20px;
@@ -221,14 +202,12 @@
   }
   .introducao-conteudo h1 {
     font-size: 30px;
-    margin-bottom: 20px;
   }
   .introducao-conteudo p {
     font-size: 14px;
   }
   .introducao-conteudo li {
     font-size: 14px;
-    margin-bottom: 14px;
   }
   .introducao img {
     display: none;
@@ -238,18 +217,15 @@
     font-size: 12px;
   }
 }
-
 @media (max-width: 280px) {
   .introducao-conteudo h1 {
     font-size: 24px;
-    margin-bottom: 20px;
   }
   .introducao-conteudo p {
     font-size: 12px;
   }
   .introducao-conteudo li {
     font-size: 12px;
-    margin-bottom: 14px;
   }
   .introducao-conteudo a {
     padding: 8px 8px;
