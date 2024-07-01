@@ -6,39 +6,32 @@
   margin: 0 auto;
   margin-top: 120px;
 }
-
 .atendimento-titulo {
   font-size: 64px;
   color: var(--cor-p6);
   margin-bottom: 20px;
   text-align: center;
 }
-
 .atendimento-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
-
 .atendimento-conteudo p {
   font-size: 24px;
   line-height: 1.5;
   position: relative;
 }
-
 .atendimento-conteudo p span {
   font-weight: bold;
 }
-
 .atendimento-titulo.dois {
   margin-top: 120px;
 }
-
 .atendimento-formas {
   display: flex;
   justify-content: center;
 }
-
 .atendimento-online,
 .atendimento-presencial {
   background-color: var(--cor-p1);
@@ -51,7 +44,6 @@
   flex-direction: column;
   margin-bottom: 100px;
 }
-
 .atendimento-online h3,
 .atendimento-presencial h3 {
   font-size: 32px;
@@ -59,7 +51,6 @@
   text-align: center;
   margin-bottom: 30px;
 }
-
 .atendimento-online li,
 .atendimento-presencial li {
   font-size: 24px;
@@ -68,7 +59,6 @@
   display: flex;
   align-items: center;
 }
-
 .atendimento-online li::before,
 .atendimento-presencial li::before {
   content: "";
@@ -78,12 +68,10 @@
   height: 12px;
   margin-right: 10px;
 }
-
 .atendimento-online li + li,
 .atendimento-presencial li + li {
   margin-top: 20px;
 }
-
 .atendimento-botao {
   color: var(--cor-p3);
   background-color: var(--cor-w);
@@ -96,12 +84,10 @@
   align-self: center;
   text-align: center;
 }
-
 .atendimento-botao:hover {
   color: var(--cor-w);
   background-color: var(--cor-p3);
 }
-
 @media (max-width: 1200px) {
   .atendimento-titulo {
     font-size: 58px;
@@ -122,7 +108,6 @@
     height: 450px;
   }
 }
-
 @media (max-width: 1000px) {
   .atendimento {
     margin-top: 84px;
@@ -157,19 +142,17 @@
   .atendimento-presencial h3 {
     font-size: 30px;
   }
-
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 21px;
   }
 }
-
 @media (max-width: 930px) {
-  .atendimento-online h3,
-  .atendimento-presencial h3 {
-    font-size: 30px;
+  .atendimento-online,
+  .atendimento-presencial {
+    height: 270px;
+    margin: 30px 30px;
   }
-
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 19px;
@@ -179,19 +162,16 @@
     font-size: 14px;
     margin-top: 30px;
   }
+}
+@media (max-width: 880px) {
   .atendimento-online,
   .atendimento-presencial {
-    height: 270px;
-    margin: 30px 30px;
+    height: 245px;
   }
-}
-
-@media (max-width: 880px) {
   .atendimento-online h3,
   .atendimento-presencial h3 {
     font-size: 28px;
   }
-
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 17px;
@@ -201,13 +181,13 @@
     font-size: 13px;
     margin-top: 24px;
   }
+}
+@media (max-width: 830px) {
   .atendimento-online,
   .atendimento-presencial {
-    height: 245px;
+    height: 225px;
+    margin: 20px 20px;
   }
-}
-
-@media (max-width: 830px) {
   .atendimento-online h3,
   .atendimento-presencial h3 {
     font-size: 26px;
@@ -217,13 +197,7 @@
   .atendimento-presencial li {
     font-size: 16px;
   }
-  .atendimento-online,
-  .atendimento-presencial {
-    height: 225px;
-    margin: 20px 20px;
-  }
 }
-
 @media (max-width: 800px) {
   .atendimento {
     margin-top: 70px;
@@ -252,7 +226,6 @@
     margin: 15px 15px;
   }
 }
-
 @media (max-width: 700px) {
   .atendimento {
     margin-top: 60px;
@@ -298,7 +271,6 @@
     margin-top: 20px;
   }
 }
-
 @media (max-width: 660px) {
   .atendimento-formas {
     flex-wrap: wrap;
@@ -324,7 +296,6 @@
     font-size: 16px;
   }
 }
-
 @media (max-width: 550px) {
   .atendimento {
     margin-top: 50px;
@@ -349,7 +320,6 @@
   }
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
     width: 270px;
     height: 220px;
   }
@@ -360,7 +330,6 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 16px;
-    line-height: 1.5;
   }
   .atendimento-botao {
     padding: 12px 24px;
@@ -368,7 +337,6 @@
     font-size: 13px;
   }
 }
-
 @media (max-width: 480px) {
   .atendimento {
     margin-top: 45px;
@@ -392,7 +360,6 @@
   }
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
     width: 240px;
     height: 200px;
     margin-top: 2px;
@@ -404,33 +371,27 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 14px;
-    line-height: 1.5;
   }
   .atendimento-botao {
     padding: 10px 20px;
-    margin-top: 24px;
     font-size: 11.8px;
   }
 }
-
 @media (max-width: 350px) {
   .atendimento {
     margin-top: 40px;
   }
   .atendimento-titulo {
     font-size: 20px;
-    margin-bottom: 24px;
   }
   .atendimento-conteudo p {
     font-size: 12px;
-    margin-bottom: 24px;
   }
   .atendimento-titulo.dois {
     margin-top: 40px;
   }
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
     width: 195px;
     height: 185px;
     margin-top: 0px;
@@ -442,7 +403,6 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 12.5px;
-    line-height: 1.5;
   }
   .atendimento-botao {
     padding: 12px 18px;
@@ -450,7 +410,6 @@
     font-size: 9.8px;
   }
 }
-
 @media(max-width:315px){
   .atendimento-online{
     width: 195px;
@@ -468,15 +427,12 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 12.5px;
-    line-height: 1.5;
   }
   .atendimento-botao {
     padding: 11px 18px;
-    margin-top: 20px;
     font-size: 9px;
   }
 }
-
 @media (max-width: 300px) {
   .atendimento {
     margin-top: 30px;
@@ -487,14 +443,12 @@
   }
   .atendimento-conteudo p {
     font-size: 11px;
-    margin-bottom: 24px;
   }
   .atendimento-titulo.dois {
     margin-top: 30px;
   }
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
     width: 195px;
     height: 180px;
   }
@@ -503,31 +457,23 @@
    display: none;
   }
 }
-
 @media(max-width:295px){
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
-    width: 195px;
     height: 195px;
   }
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 12px;
-    line-height: 1.5;
   }
   .atendimento-botao {
     padding: 10px 16px;
-    margin-top: 20px;
     font-size: 8px;
   }
 }
-
 @media(max-width:275px){
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
-    width: 195px;
     height: 180px;
   }
   .atendimento-online h3,
@@ -540,17 +486,12 @@
     line-height: 1.2;
   }
   .atendimento-botao {
-    padding: 10px 16px;
-    margin-top: 20px;
     font-size: 7px;
   }
 }
-
 @media(max-width:260px){
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
-    width: 195px;
     height: 185px;
   }
   .atendimento-online h3,
@@ -560,20 +501,14 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 10px;
-    line-height: 1.2;
   }
   .atendimento-botao {
     padding: 8px 12px;
-    margin-top: 20px;
-    font-size: 7px;
   }
 }
-
 @media(max-width:250px){
   .atendimento-online,
   .atendimento-presencial {
-    align-items: center;
-    width: 195px;
     height: 180px;
   }
   .atendimento-online h3,
@@ -583,15 +518,12 @@
   .atendimento-online li,
   .atendimento-presencial li {
     font-size: 10px;
-    line-height: 1.2;
   }
   .atendimento-botao {
     padding: 8px 12px;
-    margin-top: 20px;
     font-size: 6.5px;
   }
 }
-
 @media(max-width:240px){
   .atendimento-online li,
   .atendimento-presencial li {
@@ -601,7 +533,6 @@
     font-size: 6px;
   }
 }
-
 @media(max-width:230px){
   .atendimento-online,
   .atendimento-presencial {
@@ -612,7 +543,6 @@
     font-size: 12px;
   }
 }
-
 @media(max-width:205px){
   .atendimento-online,
   .atendimento-presencial {
