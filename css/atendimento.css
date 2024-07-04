@@ -63,7 +63,7 @@
 .atendimento-presencial li::before {
   content: "";
   display: inline-block;
-  background: url("../img/Vector.svg");
+  background: url("../img/marcador.svg");
   width: 16px;
   height: 12px;
   margin-right: 10px;
