@@ -25,6 +25,7 @@
   font-size: 18px;
   position: relative;
   transition: 0.3s;
+  font-family: 'Poppins';
 }
 .header-menu a:hover {
   color: var(--cor-p3);

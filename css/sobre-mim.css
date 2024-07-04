@@ -31,6 +31,7 @@
   padding: 16px 32px;
   border-radius: 4px;
   transition: .3s;
+  font-family: 'Poppins';
 }
 .sobre-mim-conteudo a:hover{
   background-color: var(--cor-p3);

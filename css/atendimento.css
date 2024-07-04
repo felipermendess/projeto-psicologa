@@ -83,6 +83,7 @@
   margin-top: 40px;
   align-self: center;
   text-align: center;
+  font-family: 'Poppins';
 }
 .atendimento-botao:hover {
   color: var(--cor-w);
