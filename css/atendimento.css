@@ -24,6 +24,7 @@
 }
 .atendimento-conteudo p span {
   font-weight: bold;
+  color: var(--cor-p6);
 }
 .atendimento-titulo.dois {
   margin-top: 120px;
@@ -83,7 +84,6 @@
   margin-top: 40px;
   align-self: center;
   text-align: center;
-  font-family: 'Poppins';
 }
 .atendimento-botao:hover {
   color: var(--cor-w);

@@ -58,7 +58,6 @@
   font-weight: 600;
   display: inline-block;
   transition: 0.3s;
-  font-family: 'Poppins';
 }
 .introducao-conteudo a:hover {
   color: var(--cor-w);
