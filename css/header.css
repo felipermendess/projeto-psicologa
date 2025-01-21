@@ -53,7 +53,7 @@
     background-color: var(--cor-p2);
   }
 }
-@media (max-width: 593px) {
+@media (max-width: 623px) {
   .header {
     justify-content: center;
   }
