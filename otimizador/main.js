@@ -3,20 +3,20 @@
   !(function () {
     function t(t) {
       t.preventDefault();
-      const e = t.currentTarget.getAttribute("href");
+      var e = t.currentTarget.getAttribute("href");
       document
         .querySelector(e)
         .scrollIntoView({ behavior: "smooth", block: "start" });
     }
-    document.querySelectorAll('a[href^="#"]').forEach(e => {
+    document.querySelectorAll('a[href^="#"]').forEach(function (e) {
       e.addEventListener("click", t);
     });
   })(),
     (function () {
-      const t = document.querySelectorAll(".js-scroll"),
+      var t = document.querySelectorAll(".js-scroll"),
         e = 0.8 * window.innerHeight;
       function n() {
-        t.forEach(t => {
+        t.forEach(function (t) {
           t.getBoundingClientRect().top - e < 0 && t.classList.add("ativo");
         });
       }
