@@ -4,7 +4,8 @@
   "description": "Este projeto é uma criação de uma landing page para a cliente apresentar seu perfil profissional. O objetivo é fornecer informações para clientes e divulgar o trabalho da psicóloga, utilizando as melhores práticas de desenvolvimento front-end.",
   "main": "./js/script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production ./js/script.js -o otimizador",
+    "dev": "webpack --mode development --watch ./js/script.js -o otimizador"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,8 @@
     "@eslint/js": "^9.18.0",
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
-    "prettier": "3.4.2"
+    "prettier": "3.4.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   }
 }
